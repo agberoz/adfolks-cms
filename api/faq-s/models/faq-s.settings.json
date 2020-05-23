@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_s",
+  "info": {
+    "name": "faq's"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "landing_page": {
+      "via": "faqs",
+      "model": "landing-page"
+    }
+  }
+}

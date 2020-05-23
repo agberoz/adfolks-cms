@@ -16,6 +16,14 @@
     "our_clients": {
       "collection": "our-clients",
       "via": "landing_page"
+    },
+    "testimonials": {
+      "collection": "testimonials",
+      "via": "landing_page"
+    },
+    "faqs": {
+      "collection": "faq-s",
+      "via": "landing_page"
     }
   }
 }

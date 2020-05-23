@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "name": "testimonials"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "testimony": {
+      "type": "string"
+    },
+    "personName": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "landing_page": {
+      "via": "testimonials",
+      "model": "landing-page"
+    }
+  }
+}
