@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "landingPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "our_partners": {
+      "collection": "our-partners",
+      "via": "landing_page"
+    },
+    "our_clients": {
+      "collection": "our-clients",
+      "via": "landing_page"
+    }
+  }
+}

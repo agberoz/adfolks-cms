@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "our_clients",
+  "collectionName": "our_partners",
   "info": {
-    "name": "ourClients"
+    "name": "ourPartners"
   },
   "options": {
     "increments": true,
@@ -12,7 +12,7 @@
     "name": {
       "type": "string"
     },
-    "icon": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -23,11 +23,8 @@
       "plugin": "upload",
       "required": false
     },
-    "industry": {
-      "type": "string"
-    },
     "landing_page": {
-      "via": "our_clients",
+      "via": "our_partners",
       "model": "landing-page"
     }
   }
