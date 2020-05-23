@@ -53,9 +53,21 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "blogs": {
-      "via": "author",
-      "collection": "blogs"
+    "linkedlnUrl": {
+      "type": "string"
+    },
+    "MediumUrl": {
+      "type": "string"
+    },
+    "InstagramUrl": {
+      "type": "string"
+    },
+    "TwitterUrl": {
+      "type": "string"
+    },
+    "publish_content": {
+      "via": "user",
+      "model": "publish-content"
     }
   }
 }

@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publish_contents",
+  "info": {
+    "name": "publishContent"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "publish_content"
+    },
+    "content_tags": {
+      "collection": "content-tags",
+      "via": "publish_content"
+    },
+    "content_type": {
+      "model": "content-types"
+    },
+    "our_client": {
+      "model": "our-clients"
+    }
+  }
+}
