@@ -26,6 +26,12 @@
     },
     "environments": {
       "collection": "environment"
+    },
+    "content_tags": {
+      "collection": "content-tags"
+    },
+    "our_event": {
+      "model": "our-events"
     }
   }
 }

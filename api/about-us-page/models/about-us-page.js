@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `events-type` model.
+ * Lifecycle callbacks for the `about-us-page` model.
  */
 
 module.exports = {

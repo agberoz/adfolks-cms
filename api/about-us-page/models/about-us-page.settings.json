@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "name": "AboutUsPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Projects": {
+      "type": "integer"
+    },
+    "Employees": {
+      "type": "integer"
+    },
+    "Growth": {
+      "type": "integer"
+    },
+    "Mena": {
+      "type": "integer"
+    },
+    "Review": {
+      "type": "integer"
+    },
+    "Awards": {
+      "type": "integer"
+    },
+    "Experience": {
+      "type": "integer"
+    },
+    "Lorem": {
+      "type": "integer"
+    },
+    "Sample": {
+      "type": "integer"
+    },
+    "team_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
