@@ -11,10 +11,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "publish_content": {
-      "via": "content_tags",
-      "model": "publish-content"
     }
   }
 }

@@ -24,6 +24,10 @@
     "faqs": {
       "collection": "faq-s",
       "via": "landing_page"
+    },
+    "empowerment_section": {
+      "via": "landing_page",
+      "collection": "publish-content"
     }
   }
 }

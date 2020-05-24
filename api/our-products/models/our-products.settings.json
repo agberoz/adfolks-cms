@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_products",
+  "info": {
+    "name": "ourProducts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "productName": {
+      "type": "string"
+    },
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "faqs": {
+      "collection": "faq-s"
+    },
+    "productLink": {
+      "type": "string"
+    }
+  }
+}

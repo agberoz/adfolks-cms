@@ -64,10 +64,6 @@
     },
     "TwitterUrl": {
       "type": "string"
-    },
-    "publish_content": {
-      "via": "user",
-      "model": "publish-content"
     }
   }
 }

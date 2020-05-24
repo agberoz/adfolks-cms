@@ -31,18 +31,20 @@
     },
     "user": {
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "publish_content"
+      "model": "user"
     },
     "content_tags": {
-      "collection": "content-tags",
-      "via": "publish_content"
+      "collection": "content-tags"
     },
     "content_type": {
       "model": "content-types"
     },
     "our_client": {
       "model": "our-clients"
+    },
+    "landing_page": {
+      "model": "landing-page",
+      "via": "empowerment_section"
     }
   }
 }
