@@ -1,18 +1,21 @@
 {
   "kind": "collectionType",
-  "collectionName": "our_products",
+  "collectionName": "multicloud_pages",
   "info": {
-    "name": "ourProducts"
+    "name": "MulticloudPage"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "productName": {
+    "Title": {
       "type": "string"
     },
-    "logo": {
+    "Description": {
+      "type": "text"
+    },
+    "Thumbnail": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -23,17 +26,11 @@
       "plugin": "upload",
       "required": false
     },
-    "title": {
+    "link": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
-    "faqs": {
-      "collection": "faq-s"
-    },
-    "productLink": {
-      "type": "string"
+    "content_type": {
+      "model": "content-types"
     }
   }
 }

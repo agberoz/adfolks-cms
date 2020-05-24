@@ -44,7 +44,10 @@
     },
     "landing_page": {
       "model": "landing-page",
-      "via": "empowerment_section"
+      "via": "publish_contents"
+    },
+    "environments": {
+      "collection": "environment"
     }
   }
 }

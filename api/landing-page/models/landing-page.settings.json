@@ -25,7 +25,7 @@
       "collection": "faq-s",
       "via": "landing_page"
     },
-    "empowerment_section": {
+    "publish_contents": {
       "via": "landing_page",
       "collection": "publish-content"
     }

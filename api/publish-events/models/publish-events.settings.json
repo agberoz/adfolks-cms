@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publish_events",
+  "info": {
+    "name": "PublishEvents"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "faqs": {
+      "collection": "faq-s"
+    },
+    "environments": {
+      "collection": "environment"
+    }
+  }
+}

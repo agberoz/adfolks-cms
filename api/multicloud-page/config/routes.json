@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/multicloud-pages",
+      "handler": "multicloud-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/multicloud-pages/count",
+      "handler": "multicloud-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/multicloud-pages/:id",
+      "handler": "multicloud-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/multicloud-pages",
+      "handler": "multicloud-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/multicloud-pages/:id",
+      "handler": "multicloud-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/multicloud-pages/:id",
+      "handler": "multicloud-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
