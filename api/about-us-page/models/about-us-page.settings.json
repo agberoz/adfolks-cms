@@ -46,6 +46,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "year_wise_acheivements": {
+      "collection": "year-wise-acheivements"
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "year_wise_acheivements",
+  "info": {
+    "name": "year wise acheivements"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "acheivements": {
+      "type": "json"
+    },
+    "title": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  }
+}

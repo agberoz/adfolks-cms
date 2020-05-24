@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/year-wise-acheivements",
+      "handler": "year-wise-acheivements.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/year-wise-acheivements/count",
+      "handler": "year-wise-acheivements.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/year-wise-acheivements/:id",
+      "handler": "year-wise-acheivements.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/year-wise-acheivements",
+      "handler": "year-wise-acheivements.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/year-wise-acheivements/:id",
+      "handler": "year-wise-acheivements.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/year-wise-acheivements/:id",
+      "handler": "year-wise-acheivements.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
